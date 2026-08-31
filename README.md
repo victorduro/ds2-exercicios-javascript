@@ -64,3 +64,25 @@ Exemplo, uma aplicação pode armazenar usuários, produtos, pedidos e outras in
 6. **Controlar uma sessão de usuário — Server-side**
 
    O servidor pode manter e controlar as informações relacionadas à sessão do usuário.
+
+
+## Exercício 3 - Primeiro script e diagnóstico pelo console
+
+Foi criado o arquivo `exercicio01.js` para exibir informações sobre o aluno no console do navegador.
+
+### Erro provocado
+
+Foi alterado propositalmente o comando:
+
+`console.log()`
+
+para:
+
+`Console.log()`
+
+Ao executar novamente o programa, ocorreu um erro porque o JavaScript diferencia letras maiúsculas e minúsculas.
+
+Nesse caso, `Console` e `console` são identificados como nomes
+diferentes.
+
+Depois da identificação do problema, o código foi corrigido.
