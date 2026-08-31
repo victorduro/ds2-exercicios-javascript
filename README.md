@@ -82,7 +82,21 @@ para:
 
 Ao executar novamente o programa, ocorreu um erro porque o JavaScript diferencia letras maiúsculas e minúsculas.
 
-Nesse caso, `Console` e `console` são identificados como nomes
-diferentes.
+Nesse caso, `Console` e `console` são identificados como nomes diferentes.
 
 Depois da identificação do problema, o código foi corrigido.
+
+
+## Exercício 6 - Conversão de dados
+
+O prompt retorna o valor digitado pelo usuário como uma string.
+
+Por exemplo, quando o usuário digita 20, o valor recebido pelo programa é tratado como texto.
+
+Por isso, se fizermos:
+
+`"20" + 5` o JavaScript pode interpretar a operação como uma concatenação, resultando em 205.
+
+Para realizar uma soma numérica corretamente, o valor recebido pelo prompt precisa ser convertido para número.
+
+Neste exercício foi utilizada a função Number() para realizar essa conversão.
