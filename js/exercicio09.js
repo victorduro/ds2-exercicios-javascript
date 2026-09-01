@@ -3,7 +3,7 @@ let soma = 0;
 let maior = -Infinity;
 let menor = Infinity;
 
-let valor = Number(prompt("Digite um número. Digite 0 para encerrar."));
+let valor = +prompt("Digite um número. Digite 0 para encerrar.");
 
 while (valor !== 0) {
     quantidade++;
@@ -16,7 +16,7 @@ while (valor !== 0) {
         menor = valor;
     }
 
-    valor = Number(prompt("Digite outro número. Digite 0 para encerrar."));
+    valor = +prompt("Digite outro número. Digite 0 para encerrar.");
 }
 
 if (quantidade === 0) {
