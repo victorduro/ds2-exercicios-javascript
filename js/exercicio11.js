@@ -41,7 +41,7 @@ const resultadoMedia = calcularMedia(nota1, nota2);
 const resultadoSituacao = classificarMedia(resultadoMedia);
 const resultadoSaudacao = criarSaudacao(nome);
 
+console.log("Saudação:", resultadoSaudacao);
 console.log("Resultado da soma:", resultadoSoma);
 console.log("Resultado da média:", resultadoMedia);
 console.log("Situação:", resultadoSituacao);
-console.log("Saudação:", resultadoSaudacao);
